@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Log in</title>
+    <link rel="stylesheet" href="log-in.css">
+    <script src="signup.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="details">
+            <div class="form-header">
+                <h1>Log in</h1>
+            </div>
+            
+            <form>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <div class="error"></div>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                    <div class="error"></div>
+                </div>
+                <div class="submit">
+                    <button class="submit-btn" type="submit">Log in</button>
+                    <p class="log-in">Don't have an account? <a href="index.html">
+                        Sign up</a>
+                    </p>
+                </div>
+            </form>        
+        </div>
+</body>
+</html>
