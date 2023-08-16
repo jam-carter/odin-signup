@@ -13,6 +13,7 @@
 /* left side container */
 .picture-container {
     display: grid;
+    flex: 1;
     justify-content: center;
     align-content: center;
     justify-items: center;
